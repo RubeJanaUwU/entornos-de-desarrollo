@@ -27,13 +27,13 @@
 
 	<section>
 	<a id="1"></a>
-	<h>Ejercicio 1</h4>
+	<h4>Ejercicio 1</h4>
 	<p>Confeccionar una página HTML con las marcas mínimas que debe tener una página HTML y que muestre su nombre y apellido y en la siguiente línea los nombres de sus padres separados por un guión.</p>
 	<p>Héctor Moro Valentín</p>
 	<p>Tomás Moro López-Francisca Valentín Gutiérrez</p>
 	<hr>
 
-	<h>Ejercicio 2</h4>
+	<h4>Ejercicio 2</h4>
 	<p>Confeccione una página que muestre en un párrafo datos referentes a sus estudios y en otro párrafo su nombre y mail.</p>
 	<p>Educación secundaria y bachillerato en I.E.S fray diego Tadeo y Grado superior de proyectos de edificación en C.I.F.P Rodríguez Fabrés</p>
 	<p>Héctor Moro Valentín: hector.moro.valentin@gmail.com</p>
