@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Héctor Moro Valentín</title>
+</head>
+<body>
+	<header>
+		<div align="right">
+			<a href="https://www.elmundo.es" target="_blank">El mundo</a>
+			<a href="https://www.amazon.es/" target="_blank">Amazon</a>
+		</div>
+		<div align="left">
+			<a href="https://www.marca.com/" target="_blank">Marca</a>
+			<a href="https://www.mundodeportivo.com/" target="_blank">Mundo Deportivo</a>
+			<a href="https://as.com/" target="_blank">AS</a>
+		</div>
+	</header>
+
+	<main>
+		<nav>
+			<a href="hector.html#1">Ejercicio 1</a>
+			<a href="hector.html#5">Ejercicio 5</a>
+			<a href="hector.html#10">Ejercicio 10</a>
+		</nav>
+
+	<section>
+	<a id="1"></a>
+	<h>Ejercicio 1</h4>
+	<p>Confeccionar una página HTML con las marcas mínimas que debe tener una página HTML y que muestre su nombre y apellido y en la siguiente línea los nombres de sus padres separados por un guión.</p>
+	<p>Héctor Moro Valentín</p>
+	<p>Tomás Moro López-Francisca Valentín Gutiérrez</p>
+	<hr>
+
+	<h>Ejercicio 2</h4>
+	<p>Confeccione una página que muestre en un párrafo datos referentes a sus estudios y en otro párrafo su nombre y mail.</p>
+	<p>Educación secundaria y bachillerato en I.E.S fray diego Tadeo y Grado superior de proyectos de edificación en C.I.F.P Rodríguez Fabrés</p>
+	<p>Héctor Moro Valentín: hector.moro.valentin@gmail.com</p>
+	<hr>
+
+	<h4>Ejercicio 3</h4>
+	<p>Problema: Confeccionar el titular de un periódico con un título de nivel 1. Luego definir dos títulos de segundo nivel con los textos (Noticias políticas y Noticias deportivas), en cada una de estas secciones definir dos titulares de tercer nivel con un párrafo cada una.</p>
+	<h1>El Mundo</h1>
+	<h2>Noticias Poíticas</h2>
+	<p>Se aprueba la nueva ley de Educación</p>
+	<p>El gobierno destituye al ministro de transportes</p>
+	<h2>Noticias deportivas</h2>
+	<p>El Barcelona golea al Villarreal</p>
+	<p>Ter Stegen se queda sin temporada</p>
+	<hr>
+
+	<h4>Ejercicio 4</h4>
+	<p>Confeccionar una página que muestre la definición de tres palabras. Aplicar el elemento strong a cada palabra previo a su definición. Luego agregar el elemento "em" a una o a un conjunto de palabras dentro de la definición</p>
+	<p><strong>Casa:</strong>Edificio de una o pocas plantas destinado a vivienda unifamiliar, en oposición a <em>piso.</em></p>
+	<p><strong>Coche:</strong>Automóvil destinado al <em>transporte</em> de personas y con capacidad no superior a siete plazas.</p>
+	<p><strong>Perro:</strong><em>Mamífero</em> doméstico de la familia de los <em>cánidos</em>, de tamaño, forma y pelaje muy diversos, según las razas, que tiene olfato muy fino y es inteligente y muy leal a su dueño.</p>
+	<hr>
+
+	<a id="5"></a>
+	<h4>Ejercicio 5</h4>
+	<p>Confeccionar una página que muestre la definición de tres palabras. Las palabras definidas deben ser más grandes y en negrita. Otras palabras deben ser cursivas, y otras deben ser negrita y marcadas de amarillo.</p>
+	<p><big><strong>Helicóptero:</strong></big> <em>Aeronave</em> que, a diferencia del <em>avión</em>, se sostiene merced a un rotor de eje oblicuo movido por un motor, lo que le <b><mark>permite elevarse y descender verticalmente.</mark></b></p>
+	<p><big><strong>Avión:</strong></big> <em>Aeronave</em> <b><mark>provista de alas</mark></b>, cuya sustentación y avance son consecuencia de la acción de uno o varios motores.</p>
+	<p><big><strong>Planeador:</strong></big> <em>Aeronave</em> <b><mark>sin motor</mark></b>, más pesada que el aire, que se sustenta y avanza aprovechando solamente las <em>corrientes atmosféricas</em>.</p>
+	<hr>
+
+	<h4>Ejercicio 6</h4>
+	<p>Confeccionar una página que contenga un hipervínculo a un periódico. Disponer además un segundo hipervínculo a una página determinada de ese periódico</p>
+	<h2><a href="https://elpais.com/" target="_blank">El País</a></h2>
+	<h3><a href="https://elpais.com/deportes/">El País Deportes</a></h3>
+	<hr>
+
+	<h4>Ejercicio 7</h4>
+	<p>Confeccionar una página principal con dos hipervínculos a las páginas pagina2.html y pagina3.html. Luego en las dos páginas secundarias disponer hipervínculos a la página principal.</p>
+	<h4><a href="Página%202.html">Página 2</a></h4>
+	<h4><a href="Página%203.html">Página 3</a></h4>
+	<hr>
+
+	<h4>Ejercicio 8</h4>
+	<p>Desarrollar una página que muestre dos imágenes llamadas foto1.jpg y foto2.jpg (Por ejemplo), las mismas se encuentran almacenadas en el servidor en la misma carpeta donde se almacena la página desarrollada. Poned un título a cada imagen.</p>
+	<div align="center">
+	<h3>Descansao</h3>
+	<img src="foto1.jpg" alt="Gatito descansando">
+	<h3>De chill</h3>
+	<img src="foto2.jpg" alt="Gatito tranquilo">
+	</div>
+	<hr>
+
+	<h4>Ejercicio 9</h4>
+	<p>Crear tres páginas con una foto cada una (Por ejemplo foto1.jpg, foto2.jpg y foto3.jpg) luego al ser presionada avanzar a la siguiente página, es decir de la pagina1.html llamar a la pagina2.html, de la pagina2.html pasar a la pagina3.html y de ésta a la primera. Algunas de Las imágenes se encuentran en el mismo directorio que el html, y otras en el directorio padre. </p>
+	
+	<a href="paginagatos.html"><img src="citroen.jpg" height="500" width="700" alt="Citroen C15 recien salida de fábrica"></a>
+	<hr>
+
+	<a id="10"></a>
+	<h4>Ejercicio 10</h4>
+	<p>Confeccionar una página que muestre enlaces a otras páginas. Agruparlos bajo dos títulos que muestren los mismos enlaces, el primero "Hacer la apertura en otra pestaña" y el segundo "Hacer la apertura en el mismo navegador"</p>
+	<h1>Blog de Actualidad</h1>
+	<h2>En otra pestaña</h2>
+	<p><a href="https://www.elmundo.es/" target="_blank">El Mundo</a></p>
+	<p><a href="https://www.amazon.es/" target="_blank">Amazon</a></p>
+	<p><a href="https://www.facebook.com/" target="_blank">Facebook</a></p>
+	<h2>En la misma ventana</h2>
+	<p><a href="https://www.elmundo.es/">El Mundo</a></p>
+	<p><a href="https://www.amazon.es/">Amazon</a></p>
+	<p><a href="https://www.facebook.com/">Facebook</a></p>
+	<hr>
+	</section>
+
+	<section>
+	<h4>Ejercicio 11</h4>
+	<p>Crea una página web que muestre una imagen varias veces, con diferentes tamaños</p>
+	<img src="Perritos.jpg" alt="Imagen de dos perritos">
+	<img src="Perritos.jpg" alt="Imagen de dos perritos" width="100">
+	<img src="Perritos.jpg" alt="Imagen de dos perritos" width="800">
+	<img src="Perritos.jpg" alt="Imagen de dos perritos" height="700">
+	<img src="Perritos.jpg" alt="Imagen de dos perritos" height="200">
+	<hr>
+
+	<h4>Ejercicio 12</h4>
+	<p>Crea una página web con un párrafo alineado a la izquierda, otro a la derecha, otro en el centro, y otro justificado.</p>
+	<div><p align="left">El hotel del centro es el más antiguo del pueblo y también es aquel que tiene más comodidades. Este hotel fue construido en 1911, pero primero se utilizó como casa de familia. En 1975 un inversionista compró esta propiedad y la reformó para transformarla en el hotel que hoy conocemos. Es un hotel pequeño, pero cuenta con servicio a la habitación, con pileta climatizada, con un restaurante de categoría, entre otras cosas.</p></div>
+	<div><p align="right">La famosa banda de rock se separó, al menos por un tiempo. Los integrantes declararon en diversos medios que no hubo una pelea, sino que quieren trabajar un tiempo como solitas. Además, en una rueda de prensa, el representante dijo que es probable que el año próximo los músicos se vuelvan a juntar para hacer una gira.</p></div>
+	<div><p align="center">Muchas personas creen que los osos polares están en peligro de extinción, pero la denominación correcta sobre la situación de esta especie es que están en situación de conservación vulnerable. De todas formas, es necesario que se actúe rápidamente para evitar que esta especie desaparezca.</p></div>
+	<div><p align="justify">La vida cotidiana está llena de pequeñas sorpresas que, aunque a menudo pasan desapercibidas, tienen el poder de transformar nuestro día a día en algo extraordinario. Desde el simple acto de tomar un café por la mañana, que puede convertirse en un ritual reconfortante, hasta el encuentro inesperado con un viejo amigo en una esquina de la ciudad, cada momento está impregnado de posibilidades. Estos instantes fugaces nos recuerdan la importancia de vivir en el presente, de apreciar los detalles que nos rodean y de ser conscientes de cómo nuestras interacciones, por más triviales que parezcan, pueden dejar una huella duradera en nuestras vidas. La conexión con los demás, la belleza de un atardecer o el sabor de una comida compartida pueden ser fuentes inagotables de felicidad, y es en esos pequeños momentos donde encontramos la esencia de lo que significa ser humano. Al final del día, son estas experiencias las que tejen la rica trama de nuestra existencia, recordándonos que cada día es una oportunidad para redescubrir el mundo que nos rodea y para cultivar relaciones significativas que nos acompañen en nuestro viaje.</p></div>
+	<hr>
+
+	<h4>Ejercicio 13</h4>
+	<p>Crea una página web que contenga un hipervínculo al cliente de correo electrónico</p>
+	<a href="mailto:hector.moro.valentin@gmail.com">Enviar correo a Héctor</a>
+	<hr>
+
+	<h4>Ejercicio 14</h4>
+	<p>Disponer una serie de hipervínculos en nuestra página. Enlazar los hipervínculos con anclas que se encuentran más abajo en la misma página.</p>
+	<h4>Anclas</h4>
+	<div><a href="hector.html#1">Ejercicio 1</a></div>
+	<div><a href="hector.html#5">Ejercicio 5</a></div>
+	<div><a href="hector.html#10">Ejercicio 10</a></div>
+	<hr>
+
+	<h4>Ejercicio 15</h4>
+	<p>Disponer una serie de hipervínculos en nuestra página. Enlazar los hipervínculos con anclas que se encuentran más abajo en otra página.</p>
+	<a href="página%2015.html#1">Parte 1</a>
+	<a href="página%2015.html#2">Parte 2</a>
+	<a href="página%2015.html#3">Parte 3</a>
+	<hr>
+
+	<h4>Ejercicio 16</h4>
+	<p>Confeccione una lista ordenada y otra no ordenada con tres o cuatro elementos cada una.</p>
+	<ol>
+		<li>Barcelona</li>
+		<li>Real Madrid</li>
+		<li>Villarreal</li>
+		<li>Atlético de Madrid</li>
+	</ol>
+	<ul>
+		<li>Avión</li>
+		<li>Tren</li>
+		<li>Autobús</li>
+		<li>Taxi</li>
+	</ul>
+	<hr>
+
+	<h4>Ejercicio 17</h4>
+	<p>Confeccionar una lista no ordenada con varios elementos. Para cada elemento disponer una lista ordenada con hipervínculos a sitios que traten sobre los elementos de dicha lista, y con apertura en una nueva pestaña</p>
+	<ul>
+		<li>FÚTBOL
+		<ol>
+			<li><a href="https://www.marca.com/" target="_blank">Marca</a></li>
+			<li><a href="https://www.mundodeportivo.com/" target="_blank">Mundo Deportivo</a></li>
+			<li><a href="https://as.com/" target="_blank">AS</a></li>
+		</ol>
+		</li>
+	</ul>
+		
+	<ul>
+		<li>EL TIEMPO
+		<ol>
+			<li><a href="https://www.rtve.es/eltiempo/" target="_blank">El tiempo RTVE</a></li>
+			<li><a href="https://www.accuweather.com" target="_blank">Accuweather</a></li>
+			<li><a href="https://www.aemet.es/" target="_blank">AEMET</a></li>
+		</ol>
+		</li>
+	</ul>
+		
+	<ul>
+		<li>NOTICIAS
+		<ol>
+			<li><a href="https://www.rtve.es/noticias/" target="_blank">Noticias RTVE</a></li>
+			<li><a href="https://elpais.com/" target="_blank">El País</a></li>
+			<li><a href="https://www.lasexta.com/noticias/" target="_blank">La Sexta</a></li>
+		</ol>
+		</li>
+	</ul>
+	<hr>
+
+	<h4>Ejercicio 18</h4>
+	<p>Confeccionar una tabla que muestre en la primera columna los nombre de distintos empleados de una empresa y en la segunda el sueldo bruto (la empresa tiene 4 empleados)</p>
+	<table border="1" align="center">
+		<tr>
+			<td colspan="2" align="center">Salarios de la empresa</td>
+		</tr>
+		<tr>
+			<td>José Manuel</td>
+			<td>1500 €</td>
+		</tr>
+		<tr>
+			<td>Claudia</td>
+			<td>1300 €</td>
+		</tr>
+		<tr>
+			<td>Alberto</td>
+			<td>1800 €</td>
+		</tr>
+		<tr>
+			<td>Andrea</td>
+			<td>1500 €</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Ejercicio 19</h4>
+	<p>Añadir un encabezado con nombre y sueldo a la tabla anterior.</p>
+	<table border="1" align="center">
+		<tr>
+			<td colspan="2" align="center">Salarios de la empresa</td>
+		</tr>
+		<tr>
+			<th>Nombre empleado</th>
+			<th>Salario bruto</th>
+		</tr>
+		<tr>
+			<td>José Manuel</td>
+			<td>1500 €</td>
+		</tr>
+		<tr>
+			<td>Claudia</td>
+			<td>1300 €</td>
+		</tr>
+		<tr>
+			<td>Alberto</td>
+			<td>1800 €</td>
+		</tr>
+		<tr>
+			<td>Andrea</td>
+			<td>1500 €</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Ejercicio 20</h4>
+	<p>Añadir un título a la tabla anterior.</p>
+	<table border="1" align="center">
+			<caption>Salarios de la empresa</caption>
+		<tr>
+			<th>Nombre empleado</th>
+			<th>Salario bruto</th>
+		</tr>
+		<tr>
+			<td>José Manuel</td>
+			<td>1500 €</td>
+		</tr>
+		<tr>
+			<td>Claudia</td>
+			<td>1300 €</td>
+		</tr>
+		<tr>
+			<td>Alberto</td>
+			<td>1800 €</td>
+		</tr>
+		<tr>
+			<td>Andrea</td>
+			<td>1500 €</td>
+		</tr>
+	</table>
+	<hr>
+	</section>
+
+	<section>
+	<h4>Ejercicio 21</h4>
+	<p>Añadir una celda de mayor tamaño.</p>
+	<table border="1" align="center">
+			<caption>Salarios de la empresa</caption>
+		<tr>
+			<td></td>
+			<th>Nombre empleado</th>
+			<th>Salario bruto</th>
+		</tr>
+		<tr>
+			<td rowspan="2">Empleados de Almacén</td>
+			<td>José Manuel</td>
+			<td>1500 €</td>
+		</tr>
+		<tr>
+			<td>Claudia</td>
+			<td>1300 €</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Empleados de Administración</td>
+			<td>Alberto</td>
+			<td>1800 €</td>
+		</tr>
+		<tr>
+			<td>Andrea</td>
+			<td>1500 €</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Ejercicio 22</h4>
+	<p>Confeccionar un formulario que solicite el ingreso del nombre de una persona y su edad. Luego llamar a la página "recuperar_datos.php" para que imprima en pantalla los valores ingresados. Agregar un botón submit para enviar los datos</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Nombre:<input type="text" name="Nombre"></p>
+		<p>Edad:<input type="number" name="Edad"></p>
+		<p><input type="submit" name="Enviar"></p>
+	</form>
+	<hr>
+
+	<h4>Ejercicio 23</h4>
+	<p>Confeccionar un formulario de este tipo:</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Ingrese su mail:<input type="email" name="mail"></p>
+		<p>Ingrese su clave:<input type="password" name="clave"></p>
+		<p>Repita ingreso de clave:<input type="password" name="clave repetir"></p>
+		<p><input type="submit" name="Enviar"><input type="reset" name="Borrar" value="Borrar"></p>
+	</form>
+	<hr>
+
+	<h4>Ejercicio 24</h4>
+	<p>Confeccionar un formulario de este tipo:</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Ingrese su nombre:<input type="text" name="Nombre"></p>
+		<p>Ingrese su mail:<input type="email" name="mail"></p>
+		<p>Ingrese su dni:<input type="text" name="dni" pattern="[0-9]{8}[A-Z]" title="8 números y una letra mayúscula"></p>
+		<p>Ingrese su Curriculum:</p>
+		<p><textarea rows="10" cols="50" name="curriculum"></textarea></p>
+		<p><input type="submit" name="Enviar"></p>
+	</form>
+	<hr>
+
+	<h4>Ejercicio 25</h4>
+	<p>Confeccionar un formulario de este tipo:</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Ingrese su mail:<input type="email" name="mail"></p>
+		<p>Ingrese su clave:<input type="password" name="clave"></p>
+		<p><em>Seleccione las películas a pedir</em></p>
+		<p><input type="checkbox" name="Speak no evil">Speak no evil</p>
+		<p><input type="checkbox" name="Gladiator 2">Gladiator 2</p>
+		<p><input type="checkbox" name="Alien Romulus">Alien Romulus</p>
+		<p><input type="checkbox" name="Smile 2">Smile 2</p>
+		<p><input type="submit" name="Enviar"></p>
+	</form>
+	<hr>
+
+	<h4>Ejercicio 26</h4>
+	<p>Confeccionar un formulario de este tipo:</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Ingrese su nombre:<input type="text" name="Nombre"></p>
+		<p>¿Qué sistema operativo usa más?</p>
+		<p><input type="radio" name="SO">Windows</p>
+		<p><input type="radio" name="SO">Linux</p>
+		<p><input type="submit" name="Enviar"></p>
+	</form>
+	<hr>
+
+	<h4>Ejercicio 27</h4>
+	<p>Confeccionar un formulario con una lista desplegable Excelente, muy bien, bien regular o mal.</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Ingrese su nombre:<input type="text" name="Nombre"></p>
+		<p>Vote este sitio:<select name="calificacion">
+			<option value="Excelente">Excelente</option>
+			<option value="Muy bien">Muy Bien</option>
+			<option value="Bien">Bien</option>
+			<option value="Regular">Regular</option>
+			<option value="Mal">Mal</option>
+		</select></p>
+		<p><input type="submit" name="Enviar"></p>
+	</form>
+	<hr>
+
+	<h4>Ejercicio 28</h4>
+	<p>Confeccionar un formulario que permita seleccionar varias opciones de una lista.</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Seleccione una o varias películas (Presione Ctrl para selecciona variapelículas)</p>
+		<p><select name="peliculas" multiple>
+			<option value="1">Fast and furious</option>
+			<option value="2">El club de la lucha</option>
+			<option value="3">Seven</option>
+			<option value="4">Terminator 2</option>
+			<option value="5">Ali G</option>
+			<option value="6">Toy Story</option>
+		</select></p>
+		<p><input type="submit" name="Enviar"></p>
+	</form>
+	<hr>
+
+	<h4>Ejercicio 29</h4>
+	<p>Confeccionar un formulario con los nombres de países agrupados por continente.</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Seleccione un país:<select name="Pais">
+			<optgroup label="América">
+				<option value="Argentina">Argentina</option>
+				<option value="México">México</option>
+				<option value="Colombia">Colombia</option>
+			</optgroup>
+			<optgroup label="Europa">
+				<option value="España">España</option>
+				<option value="Francia">Francia</option>
+				<option value="Italia">Italia</option>
+			</optgroup>
+			<optgroup label="Asia">
+				<option value="China">China</option>
+				<option value="Japón">Japón</option>
+				<option value="Vietnam">Vietnam</option>
+			</optgroup>
+		</select></p>
+		<p><input type="submit" name="Enviar"></p>
+	</form>
+	<hr>
+
+	<h4>Ejercicio 30</h4>
+	<p>Confeccionar una página que muestre una pregunta y luego tres respuestas posibles. Al lado de cada respuesta disponer un checkbox para señalar la respuesta. El texto de las respuestas también debe servir como botón.</p>
+	<form action="recuperar_datos" method="get">
+		<p>¿Cuantos lados tiene un cuadrado?</p>
+		<input type="checkbox" value="opcion 1" id="opcion1"><label for="opcion1">Tres</label>
+		<input type="checkbox" value="opcion 2" id="opcion2"><label for="opcion2">Cuatro</label>
+		<input type="checkbox" value="opcion 3" id="opcion3"><label for="opcion3">Seis</label>
+		<input type="submit" name="Enviar">
+	</form>
+	<hr>
+	</section>
+
+	<section>
+	<h4>Ejercicio 31</h4>
+	<p>Confeccionar un formulario que solicite y envíe al servidor dos archivos. (input type=”file”).</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Envía el primer archivo: <input type="file" name="archivo1"></p>
+		<p>Envía el segundo archivo: <input type="file" name="archivo2"></p>
+		<p><input type="submit" name="Enviar"></p>
+	</form>
+	<hr>
+
+	<h4>jercicio 32</h4>
+	<p>Confeccionar un formulario que permita solicitar pizzas a domicilio. Agrupar los controles relacionados con el cliente y los referentes al pedido. (Nota: Elemento fieldset).</p>
+	<form action="recuperar_datos.php" method="get">
+		<fieldset>
+			<legend>Seleccione tipo y cantidad de pizzas</legend>
+			<p>Pizza: <select>
+				<option value="1">Mozzaerlla</option>
+				<option value="2">Pepperoni</option>
+				<option value="3">4 Quesos</option>
+				<option value="4">Mediterránea</option>
+			</select> Cantidad:<select>
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select></p>
+			<p>Pizza: <select>
+				<option value="1">Mozzaerlla</option>
+				<option value="2">Pepperoni</option>
+				<option value="3">4 Quesos</option>
+				<option value="4">Mediterránea</option>
+			</select> Cantidad:<select>
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select></p>
+		</fieldset>
+		<fieldset>
+			<legend>Datos</legend>
+			<p>Nombre: <input type="text" name="Nombre"></p>
+			<p>Dirección: <input type="text" name="Direccion"></p>
+			<p>Teléfono: <input type="tel" name="Telefono" pattern=".{9}" title="solo números de 9 cifras"></p>
+		</fieldset>
+		<input type="submit" name="Enviar">
+	</form>
+	<hr>
+
+	<h4>Ejercicio 33</h4>
+	<p>Confeccione un formulario de un libro de visitas, se debe solicitar el nombre, mail, país de origen (por defecto la opción seleccionada debe ser "España"), valoración del sitio (malo, regular, bueno, muy bueno, excelente) por defecto debe estar seleccionado "bueno". Por último, disponer un textarea donde se puede ingresar los comentarios.</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Nombre: <input type="text" name="Nombre"></p>
+		<p>Mail: <input type="email" name="mail"></p>
+		<p><select name="pais">
+			<option value="1" selected>España</option>
+			<option value="2">Francia</option>
+			<option value="3">Portugal</option>
+			<option value="4">Italia</option>
+		</select></p>
+		<p>Como calificaría a este sitio: <select name="valoracion">
+			<option value="1">Excelente</option>
+			<option value="2">Muy bueno</option>
+			<option value="3" selected>Bueno</option>
+			<option value="4">Regular</option>
+			<option value="4">Malo</option>
+		</select></p>
+		<p><textarea name="comentarios" rows="10" cols="90">Ingrese aquí sus comentarios
+		</textarea></p>
+		<p><input type="submit" name="Enviar"></p>
+	</form>
+	<hr>
+
+	<h4>Ejercicio 34</h4>
+	<p>Confeccionar un formulario que muestre un control de cada tipo y los muestre todos deshabilitados. (Con JavaScript se pueden habilitar por ejemplo si el visitante ingresa una clave correcta, por ahora veamos como queda visualmente el formulario con los controles deshabilitados)</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Ingrese su nombre: <input disabled type="text" name="nombre"></p>
+		<p>Ingrese su clave: <input disabled type="password" name="clave"></p>
+		<p>Comentarios</p>
+		<p><textarea disabled rows="10" cols="80"></textarea></p>
+		<p><input disabled type="checkbox" name="opcion1">opción1</p>
+		<p><input disabled type="checkbox" name="opcion2">opción2</p>
+		<p><input disabled type="checkbox" name="opcion3">opción3</p>
+		<p><input disabled type="checkbox" name="opcion4">opción4</p>
+		<p><input disabled type="radio" name="opcion1">opción1</p>
+		<p><input disabled type="radio" name="opcion2">opción2</p>
+		<p><input disabled type="radio" name="opcion3">opción3</p>
+		<p><input disabled type="radio" name="opcion4">opción4</p>
+		<p><select disabled>
+			<option value="1">España</option>
+			<option value="2">Francia</option>
+			<option value="3">Portugal</option>
+			<option value="4">Italia</option>
+		</select></p>
+		<p><input disabled type="button" value="Ingrese al sitio" name="entrar"></p>
+		<p><input disabled type="submit" name="Enviar"></p>
+	</form>
+	<hr>
+
+	<h4>Ejercicio 35</h4>
+	<p>Confeccionar un formulario que solicite el ingreso del nombre y apellido de una persona (hasta 40 caracteres), su edad (3 caracteres como máximo) y su documento nacional de identidad (hasta 8 caracteres)</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Ingrese su nombre y apellidos: <input type="text" name="Nombre" pattern="[A-Za-z]{1,40}" title="hasta 40 caracteres"></p>
+		<p>Ingrese su edad: <input type="text" name="Edad" pattern="[0-9]{1,3}" title="hasta 3 cifras"></p>
+		<p>Ingrese su DNI: <input type="text" name="DNI" pattern="[0-9]{8}" title="8 caracteres"></p>
+		<input type="submit" name="Enviar">
+	</form>
+	<hr>
+
+	<h4>Ejercicio 36</h4>
+	<p>Crear unos controles de tipo text, password y textarea. Disponerlos todos de solo lectura.</p>
+	<form action="recuperar_datos.php" method="get">
+		<p>Nombre: <input type="text" name="Nombre" readonly value="Hector"></p>
+		<p>Contraseña: <input type="password" name="Contraseña" readonly value="1234"></p>
+		<p><textarea name="texto" rows="10" cols="80" readonly>Texto</textarea></p>
+		<input type="submit" name="Enviar">
+		<input type="reset" name="Borrar" value="Borrar">
+	</form>
+	<hr>
+
+	<h4>Ejercicio 37</h4>
+	<p>Confeccionar un formulario que permita solicitar pizzas a domicilio. Enviar el pedido a la dirección de correo pizza_italiana@gmail.com.</p>
+	<form action="mailto:pizza_italiana@gmail.com" method="get">
+		<fieldset>
+			<legend>Seleccione tipo y cantidad de pizzas</legend>
+			<p>Pizza: <select>
+				<option value="1">Mozzaerlla</option>
+				<option value="2">Pepperoni</option>
+				<option value="3">4 Quesos</option>
+				<option value="4">Mediterránea</option>
+			</select> Cantidad:<select>
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select></p>
+			<p>Pizza: <select>
+				<option value="1">Mozzaerlla</option>
+				<option value="2">Pepperoni</option>
+				<option value="3">4 Quesos</option>
+				<option value="4">Mediterránea</option>
+			</select> Cantidad:<select>
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select></p>
+		</fieldset>
+		<fieldset>
+			<legend>Datos</legend>
+			<p>Nombre: <input type="text" name="Nombre"></p>
+			<p>Dirección: <input type="text" name="Direccion"></p>
+			<p>Teléfono: <input type="tel" name="Telefono" pattern=".{9}" title="solo números de 9 cifras"></p>
+		</fieldset>
+		<input type="submit" name="Enviar">
+	</form>
+	<hr>
+
+	<h4>Ejercicio 38</h4>
+	<p>Confeccionar un formulario de este tipo. Los campos nombre apellidos y dirección deben tener longitud 20, máxima longitud 40. Por defecto debe ir marcado Matemáticas y Alemán. Ojo: El selector de idioma es de mayor tamaño. Ojo: En los checkbox normalmente se pueden marcar varias opciones. En los radiobutton sólo una opción</p>
+	<form action="recuperar_datos.php" method="get">
+		<fieldset>
+			<legend>Indique sus preferencias por favor</legend>
+			<p>Elija una fecha: <input type="date" name="fecha"></p>
+			<p>Elija un fichero: <input type="file" name="fichero"></p>
+			<p><input type="radio" name="amd" id="amd"><label for="amd">AMD</label>
+			<input type="radio" name="i5" id="i5"><label for="i5">Intel i5</label>
+			<input type="radio" name="i7" id="i7"><label for="i7">Intel i7</label></p>
+		</fieldset>
+		<fieldset>
+			<legend>Indique sus preferencias por favor</legend>
+			<p><input type="radio" name="opcion1" id="mates"><label for="mates">Matemáticas</label>
+			<input type="radio" name="opcion2" id="historia"><label for="historia">Historia</label>
+			<input type="radio" name="opcion3" id="geografia"><label for="geografia">Geografía</label>
+			<input type="radio" name="opcion4" id="lengua"><label for="lengua">Lengua</label></p>
+			<p>Nombre: <input type="text" name="Nombre"></p>
+			<p>Apellidos: <input type="text" name="apellidos"></p>
+			<p>Dirección: <input type="text" name="direccion"></p>
+			<p>Elija un color: <input type="color" name="color"></p>
+			<p><textarea rows="10" cols="80" name="comentarios">Utilice este cuadro para escribir</textarea></p>
+			<p>Elija una fecha: <input type="date" name="fecha2"></p>
+			<p><select>
+				<option value="1">Francés</option>
+				<option value="2">Inglés</option>
+				<option value="3">Alemán</option>
+			</select></p>
+			<p>Elija una hora: <input type="time" name="hora"></p>
+			<p>Elija un fichero: <input type="file" name="archivo"></p>
+			<p><input type="checkbox" name="mujer" id="mujer"><label for="mujer">Mujer</label>
+			<input type="checkbox" name="hombre" id="hombre"><label for="hombre">Hombre</label></p>
+		</fieldset>
+		<input type="submit" name="Enviar"><input type="reset" name="borrar" value="Borrar">
+	</form>
+	<hr>
+
+	<h4>Ejercicio 39</h4>
+	<p>Investiga method=”get” y los values asignados a los inputs u option. Nota: para enviar los datos debes incluir un botón submit en el formulario.</p>
+	<hr>
+	</section>
+	<section>
+
+	<h4>Ejercicio 40</h4>
+	<p>Fusiona todos los documentos html que tengas hasta ahora (salvo aquellos que por necesidad sean un documento aparte).</p>
+	<hr>
+
+	<h4>Ejercicio 41</h4>
+	<p>4Añade una etiqueta main a la página de forma que englobe a todos los ejercicios realizados hasta ahora.</p>
+	<hr>
+
+	<h4>Ejercicio 42</h4>
+	<p>Añade una etiquea Header de forma que se añada una cabecera a la página. En dicha cabecera, añade varios iconos con hipervínculo a otras páginas, alineados a la derecha de la página.</p>
+	<hr>
+
+	<h4>Ejercicio 43</h4>
+	<p>Añade también a la cabecera varios links alineados a la izquierda.</p>
+	<hr>
+
+	<h4>Ejercicio 44</h4>
+	<p>Divide la página en secciones con la etiqueta section.</p>
+	<hr>
+
+	<h4>Ejercicio 45</h4>
+	<p>Añade el elemento “nav”, de navigation, donde puedes añadir por ejemplo las anclas que habías creado previamente.</p>
+	<hr>
+
+	<h4>Ejercicio 46</h4>
+	<p>Utilizar la etiqueta article  añadiendo un párrafo bastante extenso. En dicho article, añadir la etiqueta aside y colocar dentro un fragmento de texto</p>
+	<article>
+		<h6>Ejemplo</h6>
+		Así llegamos al párrafo, ese elemento sustancial del texto que, según la RAE, es: “Cada una de las divisiones de un escrito señaladas por letra mayúscula al principio de línea y punto y aparte al final del fragmento de escritura”. En cuanto a su contenido, el párrafo se inicia con una idea clave y continúa con un conjunto de oraciones que giran alrededor de esa idea que funciona como hilo conductor del argumento o de la explicación. De ahí la importancia del orden y la coherencia.
+
+		Pero, ¿cuál es su tamaño ideal ?, ¿hay diferentes tipos de párrafos?, ¿son todos iguales?
+		<aside>
+		Empezamos por la pregunta final, y leemos la respuesta en Las 500 dudas más frecuentes del español, editado por el Instituto Cervantes y Espasa, que dice: “[...] No serán iguales la extensión ni la estructura de un párrafo narrativo en una noticia que las de un párrafo descriptivo en un manual, o las de un párrafo en una demostración, etc. Los textos narrativos se organizan de forma cronológica, los descriptivos siguen un orden espacial, los demostrativos presentan tesis, argumento y conclusión, etc.”.
+		</aside>
+		Entre los tipos de párrafos, destacamos los siguientes: de enumeración, utilizado para dar a conocer una serie de informaciones ligadas entre sí. Está formado por una oración principal que organiza los diferentes elementos que lo conforman. Estos elementos se pueden colocar por orden de importancia y separados por coma o punto y coma, según cada caso (Era una habitación abarrotada, agobiante: dos grandes sofás enfrentados, mesas y mesitas repletas de porcelanas; estanterías llenas de libros en una de las paredes; un enorme y desordenado escritorio; ventanales oscurecidos por tupidos cortinones siempre cerrados…).
+	</article>
+	<hr>
+	<h4>Ejercicio 47</h4>
+	<p>Añade un pie de página con la etiqueta footer. ¿Es obligatorio que vaya en la parte inferior de la página?</p>
+	<p>Sí es obligarotio</p>
+	<hr>
+
+	<h4>Ejercicio 48</h4>
+	<p>Comenta en un párrafo qué observas al utilizar estas etiquetas semánticas.</p>
+	<p>Al usar etiquetas semanticas la página no cambia de manera visual, pero aquello que se encuentra dentro de las etiquetas semánticas adquieren una importancia dentro de la página web.</p>
+
+	<h4>Ejercicio 49</h4>
+	<p>Confeccionar una página que muestre tres iframes cada uno de un tamaño diferente. Hacer que las barras de desplazamiento siempre estén visibles.</p>
+	<div><iframe src="paginakim.html" scrolling="yes"></iframe></div>
+	<div><iframe src="paginakim.html" height="300" scrolling="yes"></iframe></div>
+	<div><iframe src="paginakim.html" height="500" scrolling="yes"></iframe></div>
+	<hr>
+	</section>
+	<section>
+
+	<h4>Ejercicio 50</h4>
+	<p>Trata de insertar un vídeo de youtube. Para ello, en un iframe, puedes poner el link del video en cuestión. ¿Funciona?</p>
+	<iframe src="https://www.youtube.com/watch?v=PwP9ebvCBAM"></iframe>
+	<p>Poniendo el link no funciona</p>
+	<hr>
+
+	<h4>Ejercicio 51</h4>
+	<p>Investiga cómo puedes hacer para que el vídeo funcione en la página web.</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/PwP9ebvCBAM?si=sx8t5vWO52_y_HWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<hr>
+
+	<h4>Ejercicio 52</h4>
+	<p>Trata de modificar de forma graciosa la página de un periódico famoso, para gastarle una broma a un amigo.</p>
+	<img src="pedro.png" alt="Pedro Sánchez legaliza los porros">
+	<hr>
+	</section>
+
+	</main>
+	<footer>Pie de página</footer>
+</body>
+</html>
